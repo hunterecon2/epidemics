@@ -1,6 +1,7 @@
 # epidemics
-A place to share code and ideas about epidemics and economics.  Mostly Hunter College Economics faculty and students, but other contributions welcome. 
+A repository to share links, code, and ideas about the economics of epidemices.  Hunter College Economics faculty and students, but any contributions welcome. 
 
+Please see (and post your own) useful links and resources to the [Wiki Pages](https://github.com/hunterecon2/epidemics/wiki)
 
-
-Also see the Wiki Pages
+Image below the SIRmodel (in notebooks folder, interactive web app [here](https://ricardian.herokuapp.com/voila/render/epidemic/SIRmodel.ipynb)):
+![](https://github.com/hunterecon2/epidemics/blob/master/notebooks/media/screenshot.png)
