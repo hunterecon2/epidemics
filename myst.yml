@@ -1,0 +1,39 @@
+version: 1
+project:
+  title: The Economics of Epidemics
+  description: >-
+    A repository to share links, code, and ideas about the economics of
+    epidemics.
+  github: https://github.com/hunterecon2/epidemics
+  authors:
+    - nameParsed:
+        literal: Hunter College Economics Faculty & Students
+        given: Hunter College Economics Faculty &
+        family: Students
+      name: Hunter College Economics Faculty & Students
+      id: >-
+        contributors-Users\jonat\My
+        Drive\code\GitHub\epidemics\myst-generated-uid-0
+  toc:
+    - file: intro.md
+    - children:
+        - file: notebooks/SIRmodel.ipynb
+        - file: notebooks/SIRmodel-Extended.ipynb
+        - file: notebooks/SIR_notes.ipynb
+        - file: notebooks/2020-04-10-SIRmodel.ipynb
+      title: Core SIR Models
+    - children:
+        - file: notebooks/PolicySIR.ipynb
+        - file: notebooks/PolicyTradeoffs.ipynb
+      title: Policy & Economics
+    - children:
+        - file: notebooks/older/SIR_networks.ipynb
+        - file: notebooks/older/Epidemics_over_Networks.ipynb
+      title: Network Models
+    - children:
+        - file: notebooks/covid_webinar_slides_jc.ipynb
+        - file: notebooks/tabbed_dashboard.ipynb
+        - file: notebooks/widget_layout.ipynb
+      title: Interactive Dashboards & Slides
+site:
+  template: book-theme
